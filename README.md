@@ -17,11 +17,11 @@ If you are using windows please setup WSL and a local Ubuntu Virtual machine fol
 
 ### Setup infra
 
-You can create your GitHub repository based on this template by clicking on the `Use this template button in the **[data_engineering_project_template](https://github.com/josephmachado/data_engineering_project_template)** repository. Clone your repository and replace content in the following files
+You can create your GitHub repository based on this template by clicking on the `Use this template by cloning it **[data_engineering_projects](https://github.com/faddaful/data-engineering-projects)** repository. Clone your repository and replace content in the following files
 
-1. **[CODEOWNERS](https://github.com/josephmachado/data_engineering_project_template/blob/main/.github/CODEOWNERS)**: In this file change the user id from `@josephmachado` to your Github user id.
-2. **[cd.yml](https://github.com/josephmachado/data_engineering_project_template/blob/main/.github/workflows/cd.yml)**: In this file change the `data_engineering_project_template` part of the `TARGET` parameter to your repository name.
-3. **[variable.tf](https://github.com/josephmachado/data_engineering_project_template/blob/main/terraform/variable.tf)**: In this file change the default values for `alert_email_id` and `repo_url` variables with your email and [github repository url](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-URL-find-use-example) respectively.
+1. **[CODEOWNERS](https://github.com/faddaful/data-engineering-projects/blob/main/.github/CODEOWNERS)**: In this file change the user id from `@faddaful` to your Github user id.
+2. **[cd.yml](https://github.com/faddaful/data-engineering-projects/blob/main/.github/workflows/cd.yml)**: In this file change the `data_engineering_project_template` part of the `TARGET` parameter to your repository name.
+3. **[variable.tf](https://github.com/josephmachado/data-engineering-projects/blob/main/terraform/variable.tf)**: In this file change the default values for `alert_email_id` and `repo_url` variables with your email and [github repository url](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-URL-find-use-example) respectively.
 
 Run the following commands in your project directory.
 
